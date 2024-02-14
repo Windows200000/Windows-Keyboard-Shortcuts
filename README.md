@@ -30,10 +30,10 @@ Most of these are application-dependent.
 ## Text
 | Shortcut (alternatives) | Function | Conditions | Known Supported Versions | Notes |
 |-------------------------|----------|------------|--------------------------|-------|
-| Ctrl + Right arrow | Move the cursor to the beginning of the next word. |  | 11 |  |
-| Ctrl + Left arrow | Move the cursor to the beginning of the previous word |  | 11 |  |
-| Ctrl + Down arrow | Move the cursor to the beginning of the next paragraph. |  | 11 |  |
-| Ctrl + Up arrow | Move the cursor to the beginning of the previous paragraph. |  | 11 |  |
+| Ctrl + Right arrow (+ Shift) | Move the cursor to the beginning of the next word. (And highlight/select.) |  | 11 |  |
+| Ctrl + Left arrow (+ Shift) | Move the cursor to the beginning of the previous word. (And highlight/select.) |  | 11 |  |
+| Ctrl + Down arrow (+ Shift) | Move the cursor to the beginning of the next paragraph. (And highlight/select.) |  | 11 |  |
+| Ctrl + Up arrow (+ Shift) | Move the cursor to the beginning of the previous paragraph. (And highlight/select.) |  | 11 |  |
 | Win + H | Voice typing |  | 11 |  |
 
 
@@ -155,4 +155,4 @@ Various menus in Windows itself.\
 https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec (Some aren't included here yet.)\
 https://www.reddit.com/r/windows/comments/11hxgbt/what_are_some_lesser_known_windows_tricks_hotkeys/ + comments (Some aren't included here yet.)\
 https://www.reddit.com/r/Windows10/comments/127o007/the_most_useful_windows_hotkeys/\
-https://www.reddit.com/r/technology/comments/9ljkt/actually_useful_windows_keyboard_shortcuts/ (Some aren't included here yet.)\
+https://www.reddit.com/r/technology/comments/9ljkt/actually_useful_windows_keyboard_shortcuts/ (Some aren't included here yet.)
