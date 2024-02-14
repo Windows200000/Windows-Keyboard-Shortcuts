@@ -51,8 +51,9 @@ Most of these are application-dependent.
 | Win + O | Lock device orientation. |  | 11 |  |
 | Win + P | Open "Project" menu. |  | 11 |  |
 | Win + Shift + B | Wake PC from blank or black screen. |  | 11 |  |
-| Win + PrtSc | Make and save a screenshot in %UserProfile%\Pictures\Screenshots |  | 11 |  |
-| Ctrl + Alt + Del | Security Options window |  | 11 |  |
+| Win + PrtSc | Make and save a screenshot in %UserProfile%\Pictures\Screenshots. |  | 11 |  |
+| Ctrl + Alt + Del | Security Options window. |  | 11 |  |
+| Win + Ctrl + Shift + B | Reset Graphics Driver. |  | 11 |  |
 
 
 ## Open integrated apps
