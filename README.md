@@ -4,7 +4,7 @@ An attempt at an as complete as possible list of Windows shortcuts.
 ## Contributions
 If someone knows a way to keep the column width consistent, please help!\
 Feel free to add more categories and suggest changes to categories.\
-Application-specific shortcuts should be done for Microsoft Apps only and have their own category.
+Application-specific shortcuts should be done for Microsoft or popular generic apps (i.e. Browsers, File Explorer...) only and have their own category.
 
 ## General
 Most of these are application-dependent.
