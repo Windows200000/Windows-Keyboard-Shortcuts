@@ -93,6 +93,16 @@ Most of these are application-dependent.
 | Win + Shift + M | Open Screen Ruler. | PowerToys | 11 |  |
 | Win + Shift + / | Absolutely lackluster Shortcut Guide. | PowerToys | 11 | I'm sorry. |
 | Win + Shift + T | Extract Text from Screen. | PowerToys | 11 | Works on images. |
+| Win + Ctrl + Alt + Shift | Opens Microsoft 365. |  | 11 |  |
+| Win + Ctrl + Alt + Shift + W | Opens Word. |  | 11 |  |
+| Win + Ctrl + Alt + Shift + T | Opens Teams. |  | 11 |  |
+| Win + Ctrl + Alt + Shift + Y | Opens https://www.yammer.com/ in default browser. |  | 11 |  |
+| Win + Ctrl + Alt + Shift + O | Opens Outlook. |  | 11 |  |
+| Win + Ctrl + Alt + Shift + P | Opens Powerpoint. |  | 11 |  |
+| Win + Ctrl + Alt + Shift + D | Opens OneDrive. |  | 11 | If onedrive.exe can't be located, opens https://go.microsoft.com/fwlink/?linkid=2044697, redirecting to https://onedrive.live.com/. |
+| Win + Ctrl + Alt + Shift + L | Opens https://www.linkedin.com/?trk=Officekey in default browser. |  | 11 |  |
+| Win + Ctrl + Alt + Shift + X | Opens Excel. |  | 11 |  |
+| Win + Ctrl + Alt + Shift + N | Opens OneNote. |  | 11 |  |
 
 
 ## Window Management
