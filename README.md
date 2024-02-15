@@ -34,6 +34,9 @@ Most of these are application-dependent.
 | Ctrl + Left arrow (+ Shift) | Move the cursor to the beginning of the previous word. (And highlight/select.) |  | 11 |  |
 | Ctrl + Down arrow (+ Shift) | Move the cursor to the beginning of the next paragraph. (And highlight/select.) |  | 11 |  |
 | Ctrl + Up arrow (+ Shift) | Move the cursor to the beginning of the previous paragraph. (And highlight/select.) |  | 11 |  |
+| Ctrl + Backspace | Delete previous Word. |  | 11 |  |
+| Ctrl + Del | Delete next Word. |  | 11 |  |
+| Alt + Backspace | Undo deletion. |  | 11 | Recursively undoes Blocks of deletion. This can be highlighted text, a sequence of Backsapce or Delete presses, or Ctrl + Backspace/Delete presses.  |
 | Win + H | Voice typing |  | 11 |  |
 
 
