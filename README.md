@@ -3,7 +3,7 @@ An attempt at an as complete as possible list of Windows shortcuts.
 
 ## Contributions
 If someone knows a way to keep the column width consistent, please help!\
-Feel free to add more categories and suggest changes to categories. Check [Guidelines](../Contributions.md) before contributing.\
+Feel free to add more categories and suggest changes to categories. Check [Guidelines](../Contributions.md) before contributing.
 
 ## General
 Most of these require support from the app.
