@@ -2,7 +2,7 @@
 Restructuring.NewShortcuts.OtherChanges
 
 ## General
-Application-specific shortcuts should be done for Microsoft or popular generic apps (i.e. Browsers, File Explorer...) only and have their own category.\
+Application-specific shortcuts should be done for Microsoft or popular generic apps (i.e. Browsers, File Explorer...) only and have their own category.
 
 
 ## Translations
@@ -20,7 +20,7 @@ This is the langauge and the text:
 {czech}
 ```
 
-Then paste [README.md](./README.md) in markdown format.\
+Then paste [README.md](./README.md) in markdown format.
 
 If ChatGPT stops early, send ```continue, and dont forget to keep everything in a code block``` until done.\
 Check the breaks for errors, easiest done by switching to prefview and searching for the first couple of word in the 2nd and subsequent code blocks.
