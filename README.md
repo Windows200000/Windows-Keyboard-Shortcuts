@@ -7,7 +7,7 @@ Feel free to add more categories and suggest changes to categories.\
 Application-specific shortcuts should be done for Microsoft or popular generic apps (i.e. Browsers, File Explorer...) only and have their own category.
 
 ## General
-Most of these are application-dependent.
+Most of these require support from the app.
 | Shortcut (alternatives) | Function | Conditions | Known Supported Versions | Notes |
 |-------------------------|----------|------------|--------------------------|-------|
 | Ctrl + C | Copy the selected item. |  | 11 |  |
@@ -23,21 +23,21 @@ Most of these are application-dependent.
 | Alt + underlined letter | Perform the command for that letter. |  | 11 |  |
 | Ctrl + R (F5) | Refresh. |  | 11 |  |
 | Shift + F10 | Open context menu. |  | 11 |  |
-| Ctrl + F | Find |  | 11 |  |
+| Ctrl + F | Find. |  | 11 |  |
 | F2 | Edit. |  | 11 |  |
 
 
 ## Text
 | Shortcut (alternatives) | Function | Conditions | Known Supported Versions | Notes |
 |-------------------------|----------|------------|--------------------------|-------|
-| Ctrl + Right arrow (+ Shift) | Move the cursor to the beginning of the next word. (And highlight/select.) |  | 11 |  |
-| Ctrl + Left arrow (+ Shift) | Move the cursor to the beginning of the previous word. (And highlight/select.) |  | 11 |  |
-| Ctrl + Down arrow (+ Shift) | Move the cursor to the beginning of the next paragraph. (And highlight/select.) |  | 11 |  |
-| Ctrl + Up arrow (+ Shift) | Move the cursor to the beginning of the previous paragraph. (And highlight/select.) |  | 11 |  |
+| Ctrl + Right arrow (+ Shift) | Move the cursor to the beginning of the next word (And highlight/select). |  | 11 |  |
+| Ctrl + Left arrow (+ Shift) | Move the cursor to the beginning of the previous word (And highlight/select). |  | 11 |  |
+| Ctrl + Down arrow (+ Shift) | Move the cursor to the beginning of the next paragraph (And highlight/select). |  | 11 |  |
+| Ctrl + Up arrow (+ Shift) | Move the cursor to the beginning of the previous paragraph (And highlight/select). |  | 11 |  |
 | Ctrl + Backspace | Delete previous Word. |  | 11 |  |
 | Ctrl + Del | Delete next Word. |  | 11 |  |
 | Alt + Backspace | Undo deletion. |  | 11 | Recursively undoes Blocks of deletion. This can be highlighted text, a sequence of Backsapce or Delete presses, or Ctrl + Backspace/Delete presses.  |
-| Win + H | Voice typing |  | 11 |  |
+| Win + H | Voice typing. |  | 11 |  |
 
 
 ## System
@@ -45,12 +45,12 @@ Most of these are application-dependent.
 |-------------------------|----------|------------|--------------------------|-------|
 | Win + L | Lock your PC. |  | 11 |  |
 | Alt + F4| Open "Shut Down Windows" prompt. | No active Window. | 11 | Options: Switch user, Sign out, Sleep, Hibernate, Shut down, Restart |
-| Win + Space | Change Keyboard Layouts | Multiple keyboard layouts have to be present. | 11 | Hold Win. Cycle with Space. Cycle backwards with Shift. |
+| Win + Space | Change Keyboard Layouts. | Multiple keyboard layouts have to be present. | 11 | Hold Win. Cycle with Space. Cycle backwards with Shift. |
 | Win + Ctrl + Space | Change Keyboard Layout to previous keyboard layout. | Multiple keyboard layouts have to be present. | 11 | Hold Win. Cycle with Space. Cycle backwards with Shift. |
 | Ctrl + Shift + open an app | Open an app as an administrator. |  | 11 | Works on the taskbar, in file explorer, in the "Run" window... |
-| Win + Alt + G | Record last 30 seconds | Xbox Game Bar, Nvidia Geforce Experience (Alt + Z), Game running with recording turned on. | 11 |  |
-| Win + Alt + R | Start/Stop recording | Xbox Game Bar | 11 |  |
-| Win + Alt + B | HDR on/off | Xbox Game Bar | 11 |  |
+| Win + Alt + G | Record last 30 seconds. | Xbox Game Bar, Nvidia Geforce Experience (Alt + Z), Game running with recording turned on. | 11 |  |
+| Win + Alt + R | Start/Stop recording. | Xbox Game Bar | 11 |  |
+| Win + Alt + B | HDR on/off. | Xbox Game Bar | 11 |  |
 | Win + O | Lock device orientation. |  | 11 |  |
 | Win + P | Open "Project" menu. |  | 11 |  |
 | Win + Shift + B | Wake PC from blank or black screen. |  | 11 |  |
@@ -62,7 +62,7 @@ Most of these are application-dependent.
 ## Open integrated apps
 | Shortcut (alternatives) | Function | Conditions | Known Supported Versions | Notes |
 |-------------------------|----------|------------|--------------------------|-------|
-| Win | Open Start menu |  | 11 |  |
+| Win | Open Start menu. |  | 11 |  |
 | Win + I | Open Settings. |  | 11 |  |
 | Win + U | Open Accessibility Settings. |  | 11 |  |
 | Win + Pause | Open About PC in Settings. |  | 11 |  |
@@ -83,7 +83,7 @@ Most of these are application-dependent.
 | Ctrl + Esc | Open Start menu. |  | 11 |  |
 | Ctrl + Shift + Esc | Open Task Manager. |  | 11 |  |
 | Win + . (Win + ;) | Open emoji panel. |  | 11 |  |
-| Win + Ctrl + F | open the Find Computers dialog |  | 11 |  |
+| Win + Ctrl + F | Open the Find Computers dialog. |  | 11 |  |
 | Win + Ctrl + Enter | Turn on Narrator. |  | 11 |  |
 | Win + "+" | Open Magnifier and zoom in. |  | 11 |  |
 | Win + "-" | Zoom out in Magnifier. |  | 11 |  |
@@ -111,18 +111,18 @@ Most of these are application-dependent.
 | Alt + Tab | Switch between open apps. |  | 11 | Hold Alt. Cycle with Tab. |
 | Ctrl + Alt + Tab | Switch between open apps. |  | 11 | Stazs open. Cycle with Tab or arrows. |
 | Alt + F4 | Close active window. |  | 11 | Only "tells" the app to close. |
-| Win + D (Win + M/Win + Shift + M) | Display desktop or open last displayed apps. | PowerToys Overried Win + Shift + M to Screen Rules  | 11 | Only re-opens apps that were closed with this shortcut and only when no windows are open. |
+| Win + D | Display desktop or open last displayed apps. |  | 11 | Doesn't revert Win + M. Only re-opens apps that were closed with this shortcut and only when no windows are open. Windows that can't be minimized disrupt the reversion. |
+| Win + (Shift +) M | Display desktop or open last displayed apps. | PowerToys Overried Win + Shift + M to Screen Rules  | 11 | Same as Win + D, but reverts with Shift. DOesn't revert Win + D. Only re-opens apps that were closed with this shortcut and only when no windows are open. Windows that can't be minimized disrupt the reversion. |
 | Win + arrow (Win + Alt + arrow, Win + Shift + arrow) | Open, close or snap active window to predetermined positions. |  | 11 | There's a lot of possibilities. Just try it out. |
 | Win + Shift + Left/Right Arrow | Move an app or window in the desktop from one monitor to another. |  | 11 |  |
 | Shift + click a taskbar button | Open an app or quickly open another instance of an app. |  | 11 |  |
 | Shift + right-click a taskbar button | 	Show the context menu for the app. |  | 11 |  |
 | Ctrl + click a grouped taskbar button | Cycle through the windows of the group. |  | 11 |  |
 | Win + Tab | Open Task view. |  | 11 |  |
-| Win + Ctrl + D | Function | Add a virtual desktop. | 11 |  |
+| Win + Ctrl + D | Add a virtual desktop. |  | 11 |  |
 | Win + Ctrl + Right arrow | Switch between virtual desktops you’ve created on the right. |  | 11 |  |
 | Win + Ctrl + Left arrow | Switch between virtual desktops you’ve created on the left. |  | 11 |  |
 | Win + Ctrl + F4 | Close the virtual desktop you're using. |  | 11 |  |
-| Win + M | Function |  | 11 |  |
 | Win + T | Cycle through apps on the taskbar. |  | 11 |  |
 | Win + Z | Open snap layouts. |  | 11 |  |
 | Win + , | Peek at desktop. |  | 11 | Ends when Win is released. |
@@ -134,7 +134,7 @@ Most of these are application-dependent.
 | Win + Home | Minimize all except the active desktop window. |  | 11 | Restores all windows on second stroke. |
 | Touchpad 3 Fingers Down | Minimize open apps. |  | 11 |  |
 | Touchpad 3 Fingers Down/Up | Revert minimized apps. If no apps were minimized, open Task View. |  | 11 |  |
-| Win + T | Pin a Window | PowerToys | 11 |  |
+| Win + T | Pin a Window to the foreground. | PowerToys | 11 |  |
 | Win + Ctrl + Shift + T | Create a cut-out of a Window. | PowerToys | 11 |  |
 | Win + Ctrl + Shift + R | Create a controllable cut-out of a Window. | PowerToys | 11 |  |
 | Win + Shift + ` | Open FancyZones. | PowerToys | 11 |  |
@@ -145,19 +145,18 @@ Most of these are application-dependent.
 | F2 | Rename the selected item. |  | 11 |  |
 | F3 | 	Search for a file or folder in File Explorer. |  | 11 |  |
 | F4 | 	Display the address bar list in File Explorer. |  | 11 |  |
-| F5 | Function | Refresh the active window. | 11 |  |
-| F6 | Function | Cycle through screen elements in a window or on the desktop. | 11 |  |
-| F10 | Function | Activate the Menu bar in the active app. | 11 |  |
-| Win + B | Set focus to the first icon in the Taskbar corner. |  | 11 |  |
-| Win + Ctrl + C | Turn on color filters | Enabled in in Color Filter settings. | 11 |  |
-| Win +  | Function | PowerToys | 11 |  |
+| F5 | Refresh the active window. |  | 11 |  |
+| F6 | Cycle through screen elements in a window or on the desktop. |  | 11 |  |
+| F10 | Activate the Menu bar in the active app. |  | 11 |  |
+| Win + B | Set focus to the first icon in the system tray. |  | 11 |  |
+| Win + Ctrl + C | Turn on color filters. | Enabled in Color Filter settings. | 11 |  |
 | Win + Shift + H | Mouse Highlighter. | PowerToys | 11 |  |
-| Win + Shift + D | Mouse jump. | PowerToys | 11 |  |
+| Win + Shift + D | Mouse Jump. | PowerToys | 11 |  |
 | Win + Alt + P | Mouse Pointer Crosshairs. | PowerToys | 11 |  |
-| Win + Ctrl + Alt + E | Toggle Easy Mouse (Mouse Without Borders) | PowerToys | 11 |  |
-| Win + Ctrl + Alt + L | Lock all Mashines (Mouse Without Borders) | PowerToys | 11 |  |
-| Win + Ctrl + Alt + R | Reconnect (Mouse Without Borders) | PowerToys | 11 |  |
-| Win + Alt + Fnumber | switch between mashines (Mopuse Without Borders) | PowerToys | 11 |  |
+| Win + Ctrl + Alt + E | Toggle Easy Mouse (Mouse Without Borders). | PowerToys | 11 |  |
+| Win + Ctrl + Alt + L | Lock all machines (Mouse Without Borders). | PowerToys | 11 |  |
+| Win + Ctrl + Alt + R | Reconnect (Mouse Without Borders). | PowerToys | 11 |  |
+| Win + Alt + Fnumber | switch between machines (Mopuse Without Borders). | PowerToys | 11 |  |
 | Win + Shift + Q | Mute camera and microphone. | PowerToys | 11 |  |
 | Win + Shift + A | Mute microphone. | PowerToys | 11 |  |
 | Win + Shift + I | Push to Mute camera. | PowerToys | 11 |  |
@@ -165,7 +164,9 @@ Most of these are application-dependent.
 
 ## Sources
 Various menus in Windows itself.\
-https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec (Some aren't included here yet.)\
-https://www.reddit.com/r/windows/comments/11hxgbt/what_are_some_lesser_known_windows_tricks_hotkeys/ + comments (Some aren't included here yet.)\
-https://www.reddit.com/r/Windows10/comments/127o007/the_most_useful_windows_hotkeys/\
-https://www.reddit.com/r/technology/comments/9ljkt/actually_useful_windows_keyboard_shortcuts/ (Some aren't included here yet.)
+https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec [^1]\
+https://www.reddit.com/r/windows/comments/11hxgbt/what_are_some_lesser_known_windows_tricks_hotkeys/ + comments [^1]\
+https://www.reddit.com/r/Windows10/comments/127o007/the_most_useful_windows_hotkeys/ [^1]\
+https://www.reddit.com/r/technology/comments/9ljkt/actually_useful_windows_keyboard_shortcuts/ [^1]
+
+[^1]: Some shortcuts from the source might not be included in this list.
