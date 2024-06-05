@@ -55,7 +55,7 @@ Most of these require support from the app.
 | Win + Shift + B | Wake PC from blank or black screen. |  | 11 |  |
 | Win + PrtSc | Make and save a screenshot in %UserProfile%\Pictures\Screenshots. |  | 11 |  |
 | Ctrl + Alt + Del | Security Options window. |  | 11 |  |
-| Win + Ctrl + Shift + B | Reset Graphics Driver. |  | 11 |  |
+| Win + Ctrl + Shift + B | Restart Desktop Window Manager. |  | 11 | It's not the GPU driver! [source](https://www.reddit.com/r/Windows10/comments/13gzjk2/comment/jk3ke3g/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) |
 
 
 ## Open integrated apps
