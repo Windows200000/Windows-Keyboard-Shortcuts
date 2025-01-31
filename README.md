@@ -92,6 +92,7 @@ Most of these require support from the app.
 | Win + Shift + M | Open Screen Ruler. | PowerToys | 11 |  |
 | Win + Shift + / | Absolutely lackluster Shortcut Guide. | PowerToys | 11 | I'm sorry. |
 | Win + Shift + T | Extract Text from Screen. | PowerToys | 11 | Works on images. |
+| Alt + Space | Open Copilot. | Windows Copilot (integrated) | 11 |  |
 | Win + Ctrl + Alt + Shift | Opens Microsoft 365. |  | 11 |  |
 | Win + Ctrl + Alt + Shift + W | Opens Word. |  | 11 |  |
 | Win + Ctrl + Alt + Shift + T | Opens Teams. |  | 11 |  |
@@ -166,6 +167,7 @@ Various menus in Windows itself.\
 https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec [^1]\
 https://www.reddit.com/r/windows/comments/11hxgbt/what_are_some_lesser_known_windows_tricks_hotkeys/ + comments [^1]\
 https://www.reddit.com/r/Windows10/comments/127o007/the_most_useful_windows_hotkeys/ [^1]\
-https://www.reddit.com/r/technology/comments/9ljkt/actually_useful_windows_keyboard_shortcuts/ [^1]
+https://www.reddit.com/r/technology/comments/9ljkt/actually_useful_windows_keyboard_shortcuts/ [^1]\
+https://blogs.windows.com/windows-insider/2024/12/10/update-for-copilot-for-windows-begins-rolling-out-to-windows-insiders/
 
 [^1]: Some shortcuts from the source might not be included in this list.
